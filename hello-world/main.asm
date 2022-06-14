@@ -8,9 +8,9 @@ _start:
   int 0x80
 
   mov eax, 0x1
-  mov ebx, o
+  mov ebx, 0
   int 0x80
 
 section .data
-msg db  'Hello world', 0xA
+msg db 'Hello world', 0xA
 len equ $ - msg
