@@ -8,6 +8,7 @@ section .text
 _start:
   mov rax, msg
   call print_string
+  call print_string
   call exit
 
 ; | input:
@@ -23,10 +24,10 @@ print_string:
   mov rax, 4
   mov rbx, 1
   int 0x80
-  pop rax
-  pop rbx
-  pop rcx
   pop rdx
+  pop rcx
+  pop rbx
+  pop rax
   ret
 
 ; | input:
