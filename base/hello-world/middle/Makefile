@@ -1,6 +1,6 @@
 .PHONY: main
 all: main
 
-main: ./main.asm
-	nasm -f elf64 -o main.o main.asm
+main: ./main.s
+	nasm -f elf64 -o main.o main.s
 	ld -s -o main main.o
