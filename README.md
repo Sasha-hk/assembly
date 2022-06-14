@@ -13,3 +13,9 @@ To run the program run:
 ```
 
 All programs can run on UNIX-like operating systems.
+
+## References
+
+[NASM Tutorial](https://cs.lmu.edu/~ray/notes/nasmtutorial/)
+
+[YouTube playlist](https://youtube.com/playlist?list=PLd-kTafWJCJN6OpkPAKzmqVnyCFUrDLTh)
