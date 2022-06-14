@@ -1,2 +1,6 @@
+# compilation files
 main
 main.o
+
+# temporary directory
+temp/
