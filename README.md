@@ -1,0 +1,15 @@
+# Assembly language
+
+This repository contains Assembly programs. Each directory contains `Makefile`, you can use it to compile .asm files, just run:
+
+```sh
+make
+```
+
+To run the program run:
+
+```sh
+./main
+```
+
+All programs can run on UNIX-like operating systems.
