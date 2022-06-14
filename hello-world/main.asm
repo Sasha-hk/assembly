@@ -8,7 +8,7 @@ _start:
   int 0x80
 
   mov eax, 0x1
-  mov ebx, 1
+  mov ebx, o
   int 0x80
 
 section .data
