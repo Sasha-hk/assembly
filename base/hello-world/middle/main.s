@@ -8,7 +8,6 @@ section .text
 _start:
   mov rax, msg
   call print_string
-  call print_string
   call exit
 
 ; | input:
