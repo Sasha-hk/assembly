@@ -1,6 +1,6 @@
 # Assembly language
 
-This repository contains Assembly programs. Each directory contains `Makefile`, you can use it to compile .asm files, just run:
+This repository contains Assembly programs. Each directory contains `Makefile`, you can use it to compile .s files, just run:
 
 ```sh
 make
