@@ -1,3 +1,9 @@
 {
-  "makefile.extensionOutputFolder": "./.vscode"
+  "makefile.extensionOutputFolder": "./.vscode",
+  "cSpell.enableFiletypes": [
+    "asm-collection",
+  ],
+  "cSpell.words": [
+    "resb"
+  ]
 }
