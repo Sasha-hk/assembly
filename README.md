@@ -1,12 +1,16 @@
 # Assembly language
 
-This repository contains Assembly programs. Each directory contains `Makefile`, you can use it to compile .s files, just run:
+This repository contains Assembly programs.
+
+Syntax: [`nasm x86_64`](https://www.cs.uaf.edu/2017/fall/cs301/reference/x86_64.html)
+
+Each directory contains Makefile, you can use it to compile a programs:
 
 ```sh
 make
 ```
 
-To run the program run:
+Run compiled a program:
 
 ```sh
 ./main
@@ -16,4 +20,6 @@ All programs can run on UNIX-like operating systems.
 
 ## References
 
-[NASM Tutorial](https://cs.lmu.edu/~ray/notes/nasmtutorial/)
+[Nasm Tutorial](https://cs.lmu.edu/~ray/notes/nasmtutorial/)
+
+[Nasm reference](https://www.cs.uaf.edu/2017/fall/cs301/reference/x86_64.html)
