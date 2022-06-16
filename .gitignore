@@ -4,3 +4,6 @@ main.o
 
 # temporary directory
 temp/
+
+# logs
+.vscode/*.log
