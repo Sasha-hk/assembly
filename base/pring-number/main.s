@@ -19,15 +19,15 @@ print_number:
   push rbx
   push rcx
   push rdx
-  xor rcx, rcx ; counter like i
+  xor rcx, rcx           ; counter like i
   .next_iter:
     mov rbx, 10
     xor rdx, rdx
     div rbx
-    add rdx, 0x30 ; "0" + 4 = 4
+    add rdx, 0x30        ; "0" + 4 = 4 | covert number to ascii char
     push rdx
     inc rcx
-    cmp rax, 0 ; check after first iteration to prevent 0 number
+    cmp rax, 0           ; check after first iteration to prevent 0 number
     je .print_iter
     jmp .next_iter
   .print_iter:
